@@ -1,0 +1,16 @@
+
+(CHECKKBD)
+
+    if(KBD == 0)
+        goto KEYOFF
+
+    print black screen
+
+    goto CHECKKBD
+
+
+(KEYOFF)
+
+    print white screen
+
+    goto CHECKKBD
